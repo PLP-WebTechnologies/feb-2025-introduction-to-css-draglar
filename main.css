@@ -1,0 +1,40 @@
+/* Element Selector */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ID Selector */
+#main-header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Margin */
+    border-bottom: 3px solid #e8491d;
+    /* Border */
+}
+
+/* Class Selector */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Class Selector for Image */
+.styled-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #e8491d;
+    width: 45%;
+    height: auto;
+}
